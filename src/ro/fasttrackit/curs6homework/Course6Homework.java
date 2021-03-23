@@ -36,20 +36,11 @@ public class Course6Homework {
     }
 
 
-
-
     public static int randomDonation(int targetAmount){
         double d=Math.random()*targetAmount;
         int donation = (int)d;
         return donation;
     }
-
-
-
-
-
-
-
 
     public static int sumOfElements(int[] numbers){
         int sum = 0;
